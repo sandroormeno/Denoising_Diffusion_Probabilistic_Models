@@ -63,3 +63,5 @@ El contraste es notable. Se comienza con ruido completamente aleatorio, se aplic
 
 En esencia, el modelo no crea desde la nada. Lo que hace es más interesante: parte del ruido (torch.randn), lo organiza progresivamente —guiado por el U-Net y el scheduler— y, solo al final, lo decodifica mediante el VAE, revelando una estructura que antes no era evidente.
 
+Ver el código completo [aquí](https://drive.google.com/file/d/10eit9QAsJNxnwJEtVOV8dlKKENzbGBpZ/view?usp=sharing).
+
